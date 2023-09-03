@@ -1,0 +1,136 @@
+.projects {
+  padding-top: 150px;
+}
+
+.projects_inline {
+  padding-left: 5px;
+}
+
+.projects_item {
+  position: relative;
+}
+
+.projects_description {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  padding: 10px 20px;
+  font-size: 20px;
+  line-height: 27px;
+  border-radius: 100px;
+  background: #1bff07;
+}
+
+.projects_title {
+  margin-bottom: 40px;
+  font-size: 55px;
+  line-height: 71px;
+  letter-spacing: -1.65px;
+  color: #fff;
+}
+
+.projects_name {
+  left: 50px;
+  bottom: 94px;
+  font-size: 35px;
+  line-height: 46px;
+
+  position: absolute;
+  color: #fff;
+}
+
+.projects_text {
+  left: 50px;
+  bottom: 50px;
+  font-size: 30px;
+  line-height: 39px;
+
+  position: absolute;
+  color: #fff;
+}
+
+.projects_list {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 1199px) {
+  .projects_inline {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .projects_description {
+    top: 40px;
+    left: 40px;
+    padding: 8px 16px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .projects_title {
+    margin-bottom: 53px;
+    font-size: 45px;
+    line-height: 59px;
+  }
+
+  .projects_name {
+    left: 40px;
+    bottom: 76px;
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .projects_text {
+    left: 40px;
+    bottom: 40px;
+    font-size: 24px;
+    line-height: 31px;
+  }
+
+  .projects_item_image {
+    width: 100%;
+  }
+
+  .projects_list {
+    margin-bottom: 64px;
+  }
+}
+
+@media (max-width: 767px) {
+  .projects {
+    padding-top: 100px;
+  }
+
+  .projects_inline {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+
+  .projects_name {
+    left: 35px;
+  }
+
+  .projects_description {
+    top: 31px;
+    left: 30px;
+    padding: 6px 12px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .projects_title {
+    margin-bottom: 34px;
+    font-size: 30px;
+    line-height: 39px;
+  }
+  .projects_text {
+    left: 35px;
+    bottom: 50px;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .projects_list {
+    margin-bottom: 60px;
+  }
+}

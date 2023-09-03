@@ -1,0 +1,149 @@
+.burger {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  visibility: hidden;
+  background-color: lightgray (0, 0, 0, 0.8);
+  transition: all 0.8s ease;
+}
+
+.burger__btn {
+  display: none;
+  z-index: 2000;
+}
+
+.burger_open {
+  visibility: visible;
+}
+
+.burger__content {
+  width: 362px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  padding: 62px 0 191px 37px;
+  background-color: #000;
+  transition: transform 0.2s linear;
+  transform: translate(100%);
+}
+
+.burger_open .burger__content {
+  transform: translate(0);
+}
+
+.burger__nav__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.burger__nav__link {
+  font-family: IBM Plex Mono;
+  font-size: 25px;
+  line-height: 33px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.burger__nav__link:hover,
+.burger__contacts_mail:hover,
+.burger__contacts_insta:hover,
+.burger__contactsTG_link:hover {
+  color: #1bff07;
+}
+
+.burger__nav {
+  margin-bottom: 90px;
+}
+
+.burger__btn {
+  display: none;
+  z-index: 2000;
+}
+
+.burger__contacts_title {
+  font-family: IBM Plex Mono;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.03em;
+  opacity: 0.5;
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger__contactsTG_link {
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger__contacts_mail,
+.burger__contacts_insta {
+  font-family: IBM Plex Mono;
+  font-size: 20px;
+  line-height: 55px;
+  letter-spacing: -0.03em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.burger__logo {
+  width: 109px;
+  margin-bottom: 44px;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  padding-right: 4px;
+  display: block;
+  border-radius: 11px;
+  border: 1px solid #1bff07;
+}
+
+@media (max-width: 960px) {
+  .burger__btn {
+    display: block;
+    position: relative;
+    height: 28px;
+    width: 41px;
+    left: 92%;
+    top: 25px;
+    background-image: url(../resources/burger/burger_Vector.png);
+    background-repeat: no-repeat;
+    border: none;
+    background-color: transparent;
+  }
+
+  .burger-btn_open {
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    background-image: url(../resources/burger/burger_cross.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+  }
+}
+
+@media (max-width: 650px) {
+  .burger__btn {
+    left: 90%;
+  }
+}
+
+@media (max-width: 400px) {
+  .burger__btn {
+    left: 88%;
+  }
+}

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio IK</title>
+
+    <link rel="icon" href="resources/IK_favicon.png" type="image/png"/>
+
+    <link rel="stylesheet" href="reset.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Manrope&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  
+   <header class="header">
+    
+    <button class="js-burger-btn burger__btn"></button>
+
+    <div class="js-burger burger">
+         <div class="burger__content">
+          <img class="burger__logo" src="./resources/burger/logo_bur_Kulikov.png" alt="Логотип Куликов"/>
+
+          <nav class="burger__nav">
+            <ul class="burger__nav__list">
+             <li>
+                <a href="#portfolio" class="burger__nav__link">портфолио</a>
+             </li>
+             <li>
+                <a href="#mycompetencies" class="burger__nav__link">компетенции</a>
+             </li>
+            <li>
+                <a href="#services" class="burger__nav__link">услуги</a>
+             </li>
+             <li>
+                <a href="#mycontacts" class="burger__nav__link">контакты</a>
+             </li>
+            </ul>
+        </nav>
+
+        <div class="js-burger__content burger__contacts">
+          <div class="burger__contacts_title">для связи:</div>
+          <a class="burger__contactsTG_link" target="_blank" href="https://t.me/Igor_ruspro">telegram</a>
+          <div class="burger__contacts_mail_space">
+              <a class="burger__contacts_mail" target="_blank" href="https://t.me/Igor_ruspro">mail</a>
+          </div>
+          <div class="burger__contacts_insta_space">
+            <a class="burger__contacts_insta" target="_blank" href="https://www.instagram.com/kulikov_io/">instagram</a>
+        </div>
+      </div>
+         </div>
+    </div>
+
+    <section class="section_header">
+                    <div class="logo_space">
+                    <a class="logo_link" href="/">
+                    <img class="logo" src="resources/header/logo_Kulikov.png" alt="Kulikov logo">
+                    </a>
+                
+                <nav class="nav_space">
+                    <ul class="nav_list">
+                    <li>
+                        <a href="#portfolio" class="nav__link">портфолио</a>
+                    </li>
+                    <li>
+                        <a href="#mycompetencies" class="nav__link">компетенции</a>
+                    </li>
+                    <li>
+                        <a href="#services" class="nav__link">услуги</a>
+                    </li>
+                    <li>
+                        <a href="#mycontacts" class="nav__link">контакты</a>
+                    </li>
+                </ul>
+                </nav>
+            </div>
+
+            <div class="title_job">
+             <p>Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж компании и позволяют выделиться на фоне конкурентов</p>
+            </div>
+            <div class="title_own">
+             <h1>Привет, я Игорь — фронтенд разработчик и дизайнер сайтов</h1>
+            </div>
+
+    </section>  
+    </header>
+
+    <main>
+      <section class="projects">
+        <h2 id="portfolio" class="projects_title">Самые свежие проекты</h2>
+        <div class="projects_inline">
+          <ul class="projects_list">
+            <li class="projects_item">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="./resources/projects/mob_metrika.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="./resources/projects/tablet_metrika.png"
+                />
+                <a href="https://kulikovigor.github.io/metrika-site-modul2/" target="_blank"> <img
+                  class="projects_item_image"
+                  src="./resources/projects/metrika.png"
+                  alt="Метрика"
+                /></a>
+              </picture>
+              <div class="projects_description">дизайн интерьера</div>
+
+              <h3 class="projects_name">Метрика</h3>
+              <p class="projects_text">верстка, настройка</p>
+            </li>
+
+            <li class="projects_item">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset=."/resources/projects/mob_nothing.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="./resources/projects/tablet_nothing.png"
+                />
+                <img
+                  class="projects_item_image"
+                  src="./resources/projects/nothing.png"
+                  alt="Nothing"
+                />
+              </picture>
+
+              <div class="projects_description">презентация продукта</div>
+
+              <h3 class="projects_name">Nothing</h3>
+              <p class="projects_text">верстка, настройка</p>
+            </li>
+
+            <li class="projects_item">
+              <picture>
+                <source
+                  media="(max-width: 500px)"
+                  srcset="./resources/projects/mob_toptrip.png"
+                />
+                <source
+                  media="(max-width: 1199px)"
+                  srcset="./resources/projects/tablet_toptrip.png"
+                />
+                <img
+                  class="projects_item_image"
+                  src="./resources/projects/toptrip.png"
+                  alt="TOPTRIP"
+                />
+              </picture>
+
+              <div class="projects_description">заказ путешествий</div>
+
+              <h3 class="projects_name">TOPTRIP</h3>
+              <p class="projects_text">верстка</p>
+            </li>
+          </ul>
+          <a href="https://kulikovigor.github.io/metrika-site-modul2/" target="_blank" class="fullbutton">Смотреть все проекты</a>
+        </div>
+      </section>
+
+      <section>
+        <h2 id="mycompetencies" class="competencies_title">Мои компетенции</h2>
+
+        <ul class="competencies">
+          <li class="competencies_list html-css">
+            <h3 class="competencies_name">HTML и CSS</h3>
+            <p class="competencies_text">
+              это основа фронтенд разработки. Умение создавать и правильно
+              структурировать HTML-документы, а также применять стили к этим
+              документам на CSS, является обязательным навыком для каждого
+              <br />
+              фронтенд разработчика.
+            </p>
+          </li>
+
+          <li class="competencies_list javascript">
+            <h3 class="competencies_name">JavaScript</h3>
+            <p class="competencies_text">
+              это язык программирования, который используется для создания
+              динамического и интерактивного пользовательского интерфейса.<br />
+              Хороший фронтенд разработчик должен быть знаком с основами <br />
+              JavaScript, включая работу с DOM-деревом, асинхронными<br />
+              запросами и манипуляцией данными на стороне клиента.
+            </p>
+          </li>
+
+          <li class="competencies_list framework">
+            <h3 class="competencies_name">
+              Работа с библиотеками и фреймворками
+            </h3>
+            <p class="competencies_text">
+              фронтенд разработчики должны быть знакомы с различными
+              <br />библиотеками и фреймворками, такими как React, Angular, Vue
+              и <br />
+              другими. Умение использовать готовые решения, адаптировать их
+              <br />
+              под нужды проекта и расширять их функциональность, является <br />
+              очень важным навыком.
+            </p>
+          </li>
+
+          <li class="competencies_list adaptive">
+            <h3 class="competencies_name">
+              Разработка для мобильных <br />
+              устройств и адаптивная верстка
+            </h3>
+            <p class="competencies_text">
+              фронтенд разработчики должны быть знакомы с различными <br />
+              библиотеками и фреймворками, такими как React, Angular, Vue и
+              <br />
+              другими. Умение использовать готовые решения, адаптировать их
+              <br />
+              под нужды проекта и расширять их функциональность, является <br />
+              очень важным навыком.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="skills">
+        <h2 id="services" class="skills_title">
+          Помогаю реализовать <br />
+          широкий спектр задач
+        </h2>
+
+        <ul>
+          <li class="skills_types_dev_site">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./resources/skills/mob_sitekey.png"
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset=./resources/skills/tablet_sitekey.png"
+              />
+              <img
+                class="skills_image"
+                src="./resources/skills/sitekey.png"
+                alt="Разработка сайта"
+              />
+            </picture>
+
+            <div class="skills_background">
+             
+              <h3 class="skills_name">Разработка сайта под ключ</h3>
+
+              <p class="skills_text">
+                Это создание дизайн веб-сайтов, созданный для удобства
+                пользователя и решения бизнес-задач Сайты должны быть понятными
+                и удобными, ведь чем понятнее сайт, тем быстрее пользователь
+                совершит целевое действие
+              </p>
+       
+            </div>
+          </li>
+
+          <li class="skills_types_site_layout">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./resources/skills/mob_layout.png"
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="./resources/skills/tablet_layout.png"
+              />
+              <img
+                class="skills_image"
+                src="./resources/skills/layout.png"
+                alt="Верстка сайтов"
+              />
+            </picture>
+
+            <div class="skills_background">
+            
+              <h3 class="skills_name">Верстка сайтов</h3>
+              <p class="skills_text">
+                Это процесс создания HTML-документов и применения к ним стилей
+                на CSS. Фронтенд разработчик может помочь создать
+                привлекательный и удобный интерфейс для вашего сайта
+              </p>
+      </div>
+          </li>
+
+          <li class="skills_types_mob">
+            <picture>
+              <source
+                media="(max-width: 500px)"
+                srcset="./resources/skills/mob_mobile.png"
+              />
+              <source
+                media="(max-width: 1199px)"
+                srcset="./resources/skills/tablet_mob.png"
+              />
+              <img
+                class="skills_image"
+                src="./resources/skills/mobile.png"
+                alt="Разработка мобильного интерфейса"
+              />
+            </picture>
+
+            <div class="skills_background">
+            
+              <h3 class="skills_name">Разработка мобильного интерфейса</h3>
+              <p class="skills_text">
+                Это процесс создания интерактивных элементов на странице с
+                помощью JavaScript. Фронтенд разработчик может помочь создать
+                динамический и удобный пользовательский интерфейс для вашего
+                сайта или приложения.
+              </p>
+    
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    <section class="section_full">
+        <div class="contacts_background">
+        <div class="contacts_container_inline">
+
+                      <div class="contacts_form">
+                        <p class="contacts_text">Для связи со мной заполните простую форму</p>
+                      
+                        <input class="input order__form_name" type="text" name="name" placeholder="Имя Фамилия"/>
+                        <input class="input order__form_email" type="email" name="email" placeholder="example@mail.com"/>
+                    
+                     <button class="fullbutton full_button_small">Отправить</button>
+                    </div>
+    
+      <div class="contacts_image_space">
+        <picture>
+          <source
+            class="contacts_image_tablet"
+            media="(max-width: 1199px)"
+            srcset="./resources/contacts/human_tablet.png"
+          />
+          <img class="contacts_image" src="./resources/contacts/human.png" alt="Человек">
+        </picture>
+      </div>
+  </div>
+</div>
+
+  </section>
+  </main>
+
+    <footer class="footer_space">
+      <div class="footer_background">
+
+        <div class="footer_inline">
+            <div class="footter_mycontacts_space">
+                <h3 class="footer_title">Портфолио фротнтенд-разработчика Куликова Игоря</h3>
+
+                <div id="mycontacts">
+                <a class="footer_mycontacts_link footer_title" target="_blank" href="mailto:arsenaligor@yandex.com">mail</a>
+                <a class="footer_mycontacts_link footer_title" target="_blank" href="https://t.me/igor_ruspro">telegram</a>
+                <a class="footer_mycontacts_link footer_title" target="_blank" href="https://www.instagram.com/kulikov_io/">instagram</a>
+                </div>
+
+            </div>
+
+            <div class="footer_text_down">
+              <p class="footer_text">Все права защищены. 2023</p>
+              <p class="footer_text">политика обработки данных</p>
+            </div>
+
+        </div>
+      </div>
+    </footer>
+
+    <script src="burger.js"></script>
+  </body>
+</html>

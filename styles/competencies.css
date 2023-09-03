@@ -1,0 +1,93 @@
+.competencies {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.competencies_list {
+  width: calc(50% - 25px);
+}
+
+.competencies_title {
+  margin-bottom: 80px;
+  font-size: 55px;
+  line-height: 72px;
+  color: #fff;
+}
+
+.competencies_name {
+  margin-bottom: 15px;
+  font-size: 35px;
+  line-height: 45px;
+  color: #1bff07;
+}
+
+.competencies_text {
+  font-size: 22px;
+  line-height: 29px;
+  color: #fff;
+}
+
+.html-css::before,
+.javascript::before,
+.framework::before,
+.adaptive::before {
+  content: "";
+  display: block;
+  width: 45px;
+  height: 44px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  margin-bottom: 12px;
+}
+.html-css::before {
+  background-image: url(../resources/competencies/html.png);
+}
+.javascript::before {
+  background-image: url(../resources/competencies/js.png);
+}
+.framework::before {
+  background-image: url(../resources/competencies/bibl.png);
+}
+.adaptive::before {
+  background-image: url(../resources/competencies/mob.png);
+}
+
+@media (max-width: 1199px) {
+  .competencies_title {
+    margin-bottom: 60px;
+    font-size: 45px;
+    line-height: 59px;
+  }
+
+  .competencies_name {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .competencies_text {
+    font-size: 18px;
+    line-height: 23px;
+  }
+}
+
+.html-css::before,
+.javascript::before,
+.framework::before,
+.adaptive::before {
+  width: 36px;
+  height: 36px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .competencies {
+    flex-direction: column;
+  }
+
+  .competencies_list {
+    width: 100%;
+  }
+}

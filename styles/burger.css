@@ -13,11 +13,6 @@
   transition: all 0.8s ease;
 }
 
-.btn_and_nav {
-  display: none; /* добавил не помогло */
-}
-
-
 .burger__btn {
   display: none;
   z-index: 2000;
@@ -114,7 +109,7 @@
 @media (max-width: 960px) {
 
 .btn_and_nav {
-  display: block; /* добавил не помогло */
+  display: block;
 }
   
   .burger__btn {
@@ -122,8 +117,6 @@
     position: relative;
     height: 28px;
     width: 41px;
-    left: 92%;
-    top: 25px;
     background-image: url(../resources/burger/burger_Vector.png);
     background-repeat: no-repeat;
     border: none;
@@ -134,21 +127,11 @@
     position: absolute;
     height: 34px;
     width: 34px;
+    right: 35px;
+    top: 20px;
     background-image: url(../resources/burger/burger_cross.png);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #000;
-  }
-}
-
-@media (max-width: 650px) {
-  .burger__btn {
-    left: 90%;
-  }
-}
-
-@media (max-width: 400px) {
-  .burger__btn {
-    left: 88%;
   }
 }

@@ -8,6 +8,11 @@
   background-position: 50% 50%;
 }
 
+.nav_space {
+  display: block;
+  z-index: 2000;
+}
+
 .logo_space {
   margin-bottom: 252px;
   display: flex;

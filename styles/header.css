@@ -9,6 +9,7 @@
 }
 
 .logo_space {
+  margin-bottom: 252px;
   display: flex;
   justify-content: space-between;
 }
@@ -22,7 +23,6 @@
 }
 
 .logo_link {
-  margin-bottom: 252px;
   display: inline-block;
   background-color: #000000;
   border-radius: 100px;

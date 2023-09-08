@@ -13,6 +13,11 @@
   transition: all 0.8s ease;
 }
 
+.btn_and_nav {
+  display: none; /* добавил не помогло */
+}
+
+
 .burger__btn {
   display: none;
   z-index: 2000;
@@ -107,6 +112,11 @@
 }
 
 @media (max-width: 960px) {
+
+.btn_and_nav {
+  display: block; /* добавил не помогло */
+}
+  
   .burger__btn {
     display: block;
     position: relative;

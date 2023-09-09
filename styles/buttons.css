@@ -1,20 +1,19 @@
 .fullbutton {
   display: block;
   width: 582px;
+  line-height: 153px;
+  font-size: 30px;
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
-  background-color: #1bff07;
-  line-height: 153px;
-  font-size: 30px;
-  color: #000;
+  background: linear-gradient(to left, #2eaa01, #1bff07, #2eaa01);
+  background-size: 200%;
+  transition: 0.5s;
+  color: #fff;
 }
 
 .fullbutton:hover {
-  color: #1bff07;
-  background: #000;
-  border-radius: 4.674px;
-  border: 1px solid #1bff07;
+  background-position: right;
 }
 
 .full_button_small {

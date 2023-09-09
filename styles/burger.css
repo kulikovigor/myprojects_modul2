@@ -12,6 +12,10 @@
   background-color: lightgray (0, 0, 0, 0.8);
 }
 
+.display_space {
+  display: none;
+}
+
 .burger__btn {
   display: none;
   z-index: 2000;
@@ -106,16 +110,18 @@
 }
 
 @media (max-width: 960px) {
-
-.btn_and_nav {
-  display: block;
-}
+  .display_space {
+    position: relative;
+    display: block;
+  }
   
   .burger__btn {
+    position: absolute;
     display: block;
-    position: relative;
     height: 28px;
     width: 41px;
+    top: 12px;
+    right: 20px;
     background-image: url(../resources/burger/burger_Vector.png);
     background-repeat: no-repeat;
     border: none;

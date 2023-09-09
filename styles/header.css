@@ -10,7 +10,6 @@
 
 .nav_space {
   display: block;
-  z-index: 2000;
 }
 
 .logo_space {
@@ -112,7 +111,7 @@
     line-height: 20px;
   }
 
-  .logo_link {
+  .logo_space {
     margin-bottom: 260px;
   }
 }
